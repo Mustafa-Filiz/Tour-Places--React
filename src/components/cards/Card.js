@@ -45,6 +45,26 @@ const Card = () => {
                 <img src={data[7].image}></img>
                 <p>{data[7].desc}</p>
             </div>
+            <div className="card">
+                <h2>{data[8].title}</h2>
+                <img src={data[8].image}></img>
+                <p>{data[8].desc}</p>
+            </div>
+            <div className="card">
+                <h2>{data[9].title}</h2>
+                <img src={data[9].image}></img>
+                <p>{data[9].desc}</p>
+            </div>
+            <div className="card">
+                <h2>{data[10].title}</h2>
+                <img src={data[10].image}></img>
+                <p>{data[10].desc}</p>
+            </div>
+            <div className="card">
+                <h2>{data[11].title}</h2>
+                <img src={data[11].image}></img>
+                <p>{data[11].desc}</p>
+            </div>
 
         </div>
     )
