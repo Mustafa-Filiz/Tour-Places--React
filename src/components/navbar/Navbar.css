@@ -1,0 +1,32 @@
+.navBar{
+    width: 100%;
+    max-height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: #101524;
+    color: white;
+}
+
+.navBar li{
+    width: 150px;
+    height: 80px;
+    padding: 20px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar li:hover{
+    background-color: #44e2e2;
+    cursor: pointer;
+}
+
+.navBar li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
