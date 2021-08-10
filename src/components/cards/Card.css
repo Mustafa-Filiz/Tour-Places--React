@@ -1,0 +1,41 @@
+.container2{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 22%;
+    height: 380px;
+    background-color: #101524;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.card img{
+    border-radius: 10px;
+    height: 180px;
+}
+
+.card p{
+    position: relative;
+    top: 10px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+
+}
+
+.card:hover p{
+    position: relative;
+    top: -10px;
+    opacity: 1;
+}
+
+
