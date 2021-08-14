@@ -12,6 +12,7 @@ const Card = () => {
                     <p>{data[0].desc}</p>
                 </div>
             </div>
+            
             <div className="card">
                 <h2>{data[1].title}</h2>
                 <div className="image">                    
