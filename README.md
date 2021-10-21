@@ -1,1 +1,1 @@
-https://mustafa-filiz.github.io/Tour-Places--React/
+https://popular-tour-places.netlify.app/
